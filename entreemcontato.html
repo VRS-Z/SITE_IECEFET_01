@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entre em contato conosco.</title>
-</head>
-<body>
-    Entre em contato conosco.
-</body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entre em Contato</title>
+    <link rel="stylesheet" href="style-entreEmContado.css" />
+  </head>
+  <body>
+    <div>
+      <a href="index.html">LOGO</a>
+    </div>
+    <div class="contact-container">
+      <h2>Entre em Contato</h2>
+      <form action="submit-form.php" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </body>
+  <footer>
+    <div>
+      <h6>IECEFET Softwares de Gestão</h6>
+    </div>
+    <div>
+      <p>Av. Oswaldo Cruz, Maurício de Nassau, N 217 sala 201, Caruaru/PE.</p>
+      <p>CEP: 55012-040</p>
+      <p>CNPJ N 34.945.320/0001-36</p>
+      <p>(81) 3136-4611</p>
+    </div>
+    <div>
+      <a href="https://www.instagram.com/iecefet/">Instagram</a>
+      <a href="https://wa.me/558881377746">Whatsapp</a>
+      <a href="">faltando</a>
+      <a href="">faltando</a>
+      <p>Copyright 2024 IECEFET</p>
+    </div>
+  </footer>
 </html>
