@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #00796b;
+  color: white;
+}
+
+header .logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  color: #000000;
+}
+
+.contact {
+  padding: 50px;
+  background-color: #e0f2f1;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact form label,
+.contact form input,
+.contact form textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact form button {
+  padding: 10px 20px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #00796b;
+  color: white;
+  text-align: center;
+}
+
+footer .social-links a {
+  margin: 0 10px;
+  color: white;
+}
+
+footer .social-links a:hover {
+  text-decoration: underline;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+main {
+  background-color: #e0f2f1;
+  flex: 1;
+  padding: 50px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #00796b;
+  color: white;
+  text-align: center;
+}

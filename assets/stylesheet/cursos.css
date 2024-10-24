@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #00796b;
+  color: white;
+}
+
+header .logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.main-nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  padding: 50px;
+  text-align: center;
+  background-color: #e0f2f1;
+}
+
+.intro h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.intro p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.courses {
+  padding: 50px;
+  text-align: center;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.course {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.course h2 {
+  margin-bottom: 10px;
+}
+
+.course p {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+footer {
+  padding: 20px;
+  background-color: #00796b;
+  color: white;
+  text-align: center;
+}
